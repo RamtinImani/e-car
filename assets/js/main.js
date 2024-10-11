@@ -14,3 +14,10 @@ if (closeBtn) {
     navMenu.classList.remove("show-menu");
   });
 }
+/*=============== REMOVE MENU MOBILE ===============*/
+const navLinks = document.querySelectorAll(".nav__link");
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    navMenu.classList.remove("show-menu");
+  });
+});
