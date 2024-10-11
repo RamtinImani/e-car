@@ -318,3 +318,16 @@ img {
     box-shadow: 0 0 2.4rem hsl(158, 98%, 43%);
   }
 }
+/*=============== BUTTON ===============*/
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  font-size: var(--normal-font-size);
+  padding: 1.5rem 3rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: var(--first-color-alt);
+}
