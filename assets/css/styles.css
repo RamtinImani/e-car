@@ -331,3 +331,39 @@ img {
 .button:hover {
   background-color: var(--first-color-alt);
 }
+/*=============== ABOUT ===============*/
+.about__container {
+  row-gap: 9rem;
+}
+.about__group {
+  position: relative;
+}
+.about__img {
+  width: 31rem;
+  border-radius: 1rem;
+}
+.about__card {
+  width: 18rem;
+  position: absolute;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  backdrop-filter: blur(1.5rem);
+  padding: 1.5rem 1rem;
+  border-radius: 2rem;
+  right: 0;
+  bottom: -4rem;
+  text-align: center;
+}
+.about__card-title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
+}
+.about__card-description {
+  font-size: var(--smaller-font-size);
+}
+.about__title {
+  text-align: initial;
+  margin-bottom: 3rem;
+}
+.about__description {
+  margin-bottom: 3rem;
+}
