@@ -446,3 +446,105 @@ img {
 .swiper-pagination-bullet-active {
   background-color: var(--first-color);
 }
+
+/*=============== FEATURED ===============*/
+.featured__container {
+  padding-top: 1.5rem;
+}
+.featured__filters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1.5rem;
+  margin-bottom: 5rem;
+}
+.featured__item {
+  width: 5rem;
+  height: 5rem;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--container-color);
+  color: var(--white-color);
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.featured__item-img {
+  width: 2.5rem;
+}
+.featured__item span,
+.featured__item-img {
+  opacity: 0.3;
+  transition: 0.3s;
+}
+.featured__item:hover {
+  background-color: var(--first-color);
+}
+.featured__item:hover span,
+.featured__item:hover .featured__item-img {
+  opacity: 1;
+}
+.featured__content {
+  grid-template-columns: 24rem;
+  row-gap: 4rem;
+  justify-content: center;
+}
+.featured__card {
+  position: relative;
+  background-color: var(--container-color);
+  padding: 3rem 2.5rem 2.5rem;
+  border-radius: 1.5rem;
+}
+.featured__card .shape__smaller {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
+.featured__title,
+.featured__subtitle,
+.featured__img {
+  position: relative;
+}
+.featured__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: 0.5rem;
+}
+.featured__subtitle {
+  font-size: var(--normal-font-size);
+  color: var(--text-color);
+  font-weight: 400;
+}
+.featured__img {
+  width: 18rem;
+  margin: 2.5rem 0;
+  transition: transform 0.3s;
+}
+.featured__price {
+  font-size: var(--h3-font-size);
+}
+.featured__button {
+  border: none;
+  outline: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1rem 1.5rem;
+  border-radius: 1.5rem 0 1.5rem 0;
+  cursor: pointer;
+}
+.featured__button i {
+  font-size: 2rem;
+}
+.featured__card:hover .featured__img {
+  transform: translateY(-0.5rem);
+}
+/* Active link featured */
+.active-featured {
+  background-color: var(--first-color);
+}
+.active-featured span,
+.active-featured .featured__item-img {
+  opacity: 1;
+}
