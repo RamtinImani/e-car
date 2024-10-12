@@ -446,7 +446,63 @@ img {
 .swiper-pagination-bullet-active {
   background-color: var(--first-color);
 }
-
+/*=============== FEATURES ===============*/
+.features {
+  position: relative;
+  overflow: hidden;
+}
+.features__container {
+  padding-top: 3rem;
+  grid-template-columns: 28rem;
+  justify-content: center;
+}
+.features__group {
+  position: relative;
+  display: grid;
+  z-index: 10;
+}
+.features__img {
+  width: 15rem;
+  justify-self: center;
+}
+.features__card {
+  position: absolute;
+  width: 12rem;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  backdrop-filter: blur(2rem);
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  text-align: center;
+  color: var(--title-color);
+}
+.features__card-1 {
+  top: 6rem;
+  left: 2rem;
+}
+.features__card-2 {
+  top: 14rem;
+  right: 1.5rem;
+}
+.features__card-3 {
+  left: 2rem;
+  bottom: 3rem;
+}
+.features__card-title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.5rem;
+}
+.features__card-description {
+  font-size: var(--smaller-font-size);
+}
+.features__map {
+  position: absolute;
+  max-width: initial;
+  width: 45rem;
+  top: 12rem;
+  left: -1rem;
+  margin: auto;
+  transform: rotate(-22deg);
+}
 /*=============== FEATURED ===============*/
 .featured__container {
   padding-top: 1.5rem;
