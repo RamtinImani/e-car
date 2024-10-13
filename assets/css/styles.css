@@ -762,3 +762,25 @@ img {
 .show-scroll {
   bottom: 4rem;
 }
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .container {
+    padding-inline: 1.6rem;
+  }
+  .home__car {
+    column-gap: 3rem;
+  }
+  .about__card {
+    width: 15rem;
+  }
+  .offer__container {
+    grid-template-rows: max-content 18rem;
+  }
+  .offer__img {
+    width: 34rem;
+  }
+  .logos__container {
+    gap: 5rem;
+  }
+}
