@@ -637,3 +637,19 @@ img {
   bottom: 3rem;
   right: -8rem;
 }
+/*=============== LOGOS ===============*/
+.logos__container {
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  padding-bottom: 3rem;
+}
+.logos__img {
+  width: 4rem;
+  opacity: 0.4;
+  transition: 0.3s;
+}
+.logos__img:hover {
+  opacity: 1;
+}
