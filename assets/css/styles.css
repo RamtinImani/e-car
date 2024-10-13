@@ -740,3 +740,25 @@ img {
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--first-color);
 }
+/*=============== SCROLL UP ===============*/
+.scrollup {
+  position: fixed;
+  right: 2rem;
+  bottom: -50%;
+  display: inline-block;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  backdrop-filter: blur(1.5rem);
+  color: var(--white-color);
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  transition: 0.3s;
+  z-index: var(--z-tooltip);
+}
+.scrollup:hover {
+  transform: translateY(-0.25rem);
+}
+/* Show Scroll Up*/
+.show-scroll {
+  bottom: 4rem;
+}
