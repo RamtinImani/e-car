@@ -843,3 +843,137 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+/* For large devices */
+@media screen and (min-width: 1040px) {
+  .shape__big {
+    width: 50rem;
+    height: 50rem;
+  }
+  .shape__small {
+    width: 40rem;
+    height: 40rem;
+  }
+  .home__container {
+    padding-top: 3rem;
+  }
+  .home__img {
+    width: 38rem;
+  }
+  .home__car {
+    column-gap: 12rem;
+  }
+  .home__car-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .about__container {
+    column-gap: 10rem;
+    align-items: center;
+  }
+  .about__group,
+  .about__img {
+    width: 48rem;
+  }
+  .about__card {
+    width: 20rem;
+    padding: 1.5rem 2rem;
+  }
+  .about__description {
+    padding-right: 6rem;
+    margin-bottom: 5rem;
+  }
+  .popular__container {
+    padding-top: 5rem;
+  }
+  .popular__card {
+    width: 26rem;
+    border-radius: 2rem;
+    margin-bottom: 8rem;
+  }
+  .popular__img {
+    width: 18rem;
+    margin: 1rem 0 2rem 3rem;
+  }
+  .features__container {
+    padding: 3rem 0 5rem;
+  }
+  .features__map {
+    width: 65rem;
+    top: 18rem;
+  }
+  .features__img {
+    width: 20rem;
+  }
+  .features__card-1 {
+    left: -2rem;
+  }
+  .features__card-2 {
+    top: 18rem;
+    right: -2rem;
+  }
+  .features__card-3 {
+    left: -2rem;
+    bottom: 4rem;
+  }
+  .featured__container {
+    padding-bottom: 4rem;
+  }
+  .featured__filters {
+    column-gap: 3rem;
+    margin-bottom: 7rem;
+  }
+  .featured__item-img {
+    width: 3rem;
+  }
+  .featured__content {
+    grid-template-columns: repeat(3, 24rem);
+    gap: 6rem;
+  }
+  .offer__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 8rem;
+  }
+  .offer__data,
+  .offer__title {
+    text-align: initial;
+  }
+  .offer__data {
+    margin-bottom: 0;
+  }
+  .offer__description {
+    padding-right: 9rem;
+  }
+  .offer__img {
+    width: 45rem;
+  }
+  .logos__container {
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+  }
+  .logos__img {
+    width: 5rem;
+  }
+  .footer__container {
+    grid-template-columns: repeat(4, max-content);
+    justify-content: space-between;
+  }
+  .footer__logo {
+    column-gap: 1rem;
+  }
+  .footer__logo i {
+    font-size: 3rem;
+  }
+  .footer__links {
+    row-gap: 1.5rem;
+  }
+  .footer__social-link {
+    font-size: 2.5rem;
+  }
+  .footer__copy {
+    transform: translateY(7rem);
+  }
+  .scrollup {
+    right: 4rem;
+  }
+}
